@@ -8,5 +8,10 @@
 			"email": "phuongngoc+n-coded@gmail.com"
 		}
 	],
+	"autoload": {
+		"psr-4": {
+			"Ncoded\\SafeExec\\": "src/"
+		}
+	}
 	"require": {}
 }
