@@ -8,7 +8,7 @@ class SafeExec {
 		$this->setCommand($command);
 	}
 	
-	protected setCommand($command) {
+	protected function setCommand($command) {
 		$this->command = escapeshellcmd($command);
 		return $this;
 	}
