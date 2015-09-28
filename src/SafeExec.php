@@ -18,16 +18,16 @@ class SafeExec {
 		return $this;
 	}
 	
-	public function addArgument($argument, $value = null, $separator = ' ') {
-		$this->command .= ' ' . $argument;
+	public function addOption($option, $value = null, $separator = ' ') {
+		$this->command .= ' ' . $option;
 		if (!is_null($value)) {
 			$this->command .= $separator . escapeshellarg($value);
 		}
 		return $this;
 	}
 	
-	public function addValue($value) {
-		$this->command .= ' ' . escapeshellarg($value);
+	public function addArgument($argument) {
+		$this->command .= ' ' . escapeshellarg($argument);
 		return $this;
 	}
 	
