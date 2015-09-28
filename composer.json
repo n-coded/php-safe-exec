@@ -1,0 +1,13 @@
+{
+	"name": "n-coded/php-safe-exec",
+	"description": "Run system command safely",
+	"type": "library",
+	"authors": [
+		{
+			"name": "N-Coded",
+			"email": "phuongngoc+n-coded@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {}
+}
